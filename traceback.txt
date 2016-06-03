@@ -1,0 +1,19 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/mirror_2.rpy", line 6, in script
+    [yourname] "What is this? What have they done to me?"
+Exception: Sayer [yourname] is not a function or string.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/mirror_2.rpy", line 6, in script
+    [yourname] "What is this? What have they done to me?"
+  File "/Applications/renpy-6.99.10-sdk/renpy/ast.py", line 591, in execute
+    raise Exception("Sayer %s is not a function or string." % self.who.encode("utf-8"))
+Exception: Sayer [yourname] is not a function or string.
+
+Darwin-14.4.0-x86_64-i386-64bit
+Ren'Py 6.99.10.1227
+Heartless 0.0
